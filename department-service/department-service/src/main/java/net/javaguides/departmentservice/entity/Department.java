@@ -2,7 +2,7 @@ package net.javaguides.departmentservice.entity;
 
 import lombok.*;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Getter
 @Setter
