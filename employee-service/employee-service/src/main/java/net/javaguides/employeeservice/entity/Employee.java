@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Getter
 @Setter
@@ -22,4 +22,5 @@ public class Employee {
     @Column(nullable = false, unique = true)
     private String email;
     private String departmentCode;
+    private String organizationCode;
 }
